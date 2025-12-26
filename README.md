@@ -4,7 +4,7 @@
 
 I build web and mobile applications for **FinTech** and **Startups**, with 4+ years of experience delivering production-ready solutions used by hundreds of thousands of users.
 
-Currently working as a **Freelance Developer** — available for projects, agency partnerships, and technical consulting.
+Currently working as a **Freelance Developer** available for projects, agency partnerships, and technical consulting.
 
 ---
 
@@ -47,10 +47,10 @@ Currently working as a **Freelance Developer** — available for projects, agenc
 
 ### 💼 What I Do
 
-- **Custom Web Solutions** — Backoffice, dashboards, management systems
-- **White-label Development** — Technical partner for digital agencies
-- **API Development** — RESTful APIs, serverless functions (AWS Lambda)
-- **Mobile Apps** — Cross-platform with React Native & Expo
+- **Custom Web Solutions** Backoffice, dashboards, management systems
+- **White-label Development** Technical partner for digital agencies
+- **API Development** RESTful APIs, serverless functions (AWS Lambda)
+- **Mobile Apps** Cross-platform with React Native & Expo
 
 ---
 
