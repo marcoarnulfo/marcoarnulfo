@@ -8,7 +8,7 @@ Currently working as a **Freelance Developer** available for projects, agency pa
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 **Frontend**
 
@@ -45,7 +45,7 @@ Currently working as a **Freelance Developer** available for projects, agency pa
 
 ---
 
-### 💼 What I Do
+### What I Do
 
 - **Custom Web Solutions** Backoffice, dashboards, management systems
 - **White-label Development** Technical partner for digital agencies
@@ -54,7 +54,7 @@ Currently working as a **Freelance Developer** available for projects, agency pa
 
 ---
 
-### 📫 Let's Connect
+### Let's Connect
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-marcoarnulfo.dev-64ffda?style=for-the-badge&logo=safari&logoColor=white)](https://www.marcoarnulfo.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Marco_Arnulfo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcoarnulfo7/)
