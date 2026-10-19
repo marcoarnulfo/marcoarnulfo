@@ -5,21 +5,12 @@ import { W, panel } from './theme.mjs';
 
 const USER = 'marcoarnulfo';
 const ORG = 'storytold';
-const TAGLINES = {
-  pdfcraft: 'PDF reader and editor',
-  gridcraft: 'Excel-style spreadsheet',
-  photocraft: 'Layer-based image editor',
-  filmcraft: 'Nonlinear video editor',
-  lightcraft: 'Non-destructive photo developing',
-  vectorcraft: 'Vector graphics editor',
-  designcraft: 'Page layout editor',
-  cadcraft: 'CAD and technical drawing',
-  wordcraft: 'Word-style document editor',
-  soundcraft: 'Digital audio workstation',
-  effectcraft: 'Motion graphics and compositing',
-  figcraft: 'Interface design and prototyping',
-  deckcraft: 'PowerPoint-style presentations',
-};
+// The ArtCraft apps. The org also has libraries and services: pull requests there are not counted.
+// A new app shows up here only once it is added to this list.
+const APPS = new Set([
+  'pdfcraft', 'gridcraft', 'photocraft', 'filmcraft', 'lightcraft', 'vectorcraft', 'designcraft',
+  'cadcraft', 'wordcraft', 'soundcraft', 'effectcraft', 'figcraft', 'deckcraft',
+]);
 
 const headers = {
   Accept: 'application/vnd.github+json',
@@ -60,9 +51,14 @@ async function repos() {
   }
 }
 
-const compact = (n) => (n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k` : String(n));
+const compact = (n) => {
+  if (n < 1000) return String(n);
+  const k = n / 1000;
+  return `${(k >= 10 ? k.toFixed(0) : k.toFixed(1)).replace(/\.0$/, '')}k`;
+};
 
-const [prs, list] = await Promise.all([mergedPrs(), repos()]);
+const [allPrs, list] = await Promise.all([mergedPrs(), repos()]);
+const prs = allPrs.filter((pr) => APPS.has(pr.repository_url.split('/').pop().toLowerCase()));
 if (prs.length === 0) throw new Error('no merged pull requests found');
 
 const stars = new Map(list.filter((r) => !r.private).map((r) => [r.name.toLowerCase(), r.stargazers_count]));
@@ -74,7 +70,7 @@ for (const pr of prs) {
 
 const apps = [...byRepo]
   .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-  .map(([name, count]) => ({ name, count, stars: stars.get(name) ?? 0, tagline: TAGLINES[name] ?? '' }));
+  .map(([name, count]) => ({ name, count, stars: stars.get(name) ?? 0}));
 const appStars = apps.reduce((sum, app) => sum + app.stars, 0);
 
 const allPrsUrl = `https://github.com/pulls?q=is%3Apr+author%3A${USER}+org%3A${ORG}+is%3Amerged`;
@@ -119,7 +115,7 @@ function glance() {
   const years = Math.floor((Date.now() - CAREER_START) / (365.25 * 24 * 3600 * 1000));
   const tiles = [
     ['YEARS AS A DEVELOPER', String(years).padStart(2, '0'), 'since May 2022', false],
-    ['MERGED PRS ON ARTCRAFT', String(prs.length), `across ${byRepo.size} apps`, true],
+    ['MERGED PRS · ARTCRAFT', String(prs.length), `across ${byRepo.size} apps`, true],
     ['STARS ON THOSE APPS', compact(appStars), 'on GitHub', true],
     ['APPS I CONTRIBUTE TO', String(byRepo.size).padStart(2, '0'), 'written in Rust', false],
   ];

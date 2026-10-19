@@ -11,9 +11,7 @@
 <!-- artcraft:end -->
 
 <p>
-<a href="https://github.com/marcoarnulfo/clickup-cli"><img src="assets/tool-clickup-cli.svg" alt="clickup-cli" width="32.9%"></a>
-<a href="https://github.com/marcoarnulfo/notion-cli"><img src="assets/tool-notion-cli.svg" alt="notion-cli" width="32.9%"></a>
-<a href="https://github.com/marcoarnulfo/aws-lambda-cdk-template"><img src="assets/tool-aws-lambda-cdk-template.svg" alt="aws-lambda-cdk-template" width="32.9%"></a>
+<a href="https://github.com/marcoarnulfo/clickup-cli"><img src="assets/tool-clickup-cli.svg" alt="clickup-cli" width="32.9%"></a><a href="https://github.com/marcoarnulfo/notion-cli"><img src="assets/tool-notion-cli.svg" alt="notion-cli" width="32.9%"></a><a href="https://github.com/marcoarnulfo/aws-lambda-cdk-template"><img src="assets/tool-aws-lambda-cdk-template.svg" alt="aws-lambda-cdk-template" width="32.9%"></a>
 </p>
 
 <img src="assets/stack.svg" alt="Technologies: TypeScript, React, Next.js, React Native, Expo, Node.js, NestJS, PostgreSQL, AWS, Docker, Go, Rust and more" width="100%">
