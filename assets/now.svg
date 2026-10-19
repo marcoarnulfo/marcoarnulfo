@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="404" viewBox="0 0 880 404">
+  <style>
+    .k { font: 500 11px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; letter-spacing: 2px; fill: #b5b2a8; }
+    .big { font: 700 30px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f0eee6; }
+    .acc { fill: #e08b6d; }
+    .sub { font: 400 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8f8b81; }
+    .name { font: 500 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #f0eee6; }
+    .num { font: 600 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #e08b6d; }
+    .dim { font: 400 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #8f8b81; }
+    .stat { font: 700 40px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f0eee6; }
+    .chip { font: 400 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #d6d3ca; }
+    .group { font: 600 11px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; letter-spacing: 1.5px; fill: #e08b6d; }
+    .title { font: 700 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f0eee6; }
+  </style>
+  <rect width="880" height="404" rx="6" fill="#1f1e1d"/>
+  <rect x="0.5" y="0.5" width="879" height="403" rx="6" fill="none" stroke="#3a3833"/>
+  <rect x="40" y="34" width="8" height="8" fill="#d97757"/>
+  <text x="58" y="42" class="k">NOW</text>
+  
+  <text x="40" y="80" class="group">TEAM LEAD</text>
+  <text x="190" y="80" class="title">Team lead for Compass</text>
+  <text x="190" y="104" class="sub">One of the largest consumer credit companies in Italy. I coordinate the team behind</text>
+  <text x="190" y="123" class="sub">their mobile app, web customer area and backend, from analysis and estimates to release.</text>
+  <text x="190" y="148" class="num" style="font-weight:400">NestJS · Prisma · Redis · AWS Cognito · Docker · OpenShift · Playwright · Maestro</text>
+  <line x1="40" x2="840" y1="162" y2="162" stroke="#2f2e2b"/>
+  <text x="40" y="192" class="group">OPEN SOURCE</text>
+  <text x="190" y="192" class="title">Contributor to ArtCraft</text>
+  <text x="190" y="216" class="sub">Desktop apps for images, video, PDF, spreadsheets, vector graphics, layout and more,</text>
+  <text x="190" y="235" class="sub">written from scratch in Rust. The numbers are in the chart below.</text>
+  <text x="190" y="260" class="num" style="font-weight:400">Rust</text>
+  <line x1="40" x2="840" y1="274" y2="274" stroke="#2f2e2b"/>
+  <text x="40" y="304" class="group">FREELANCE</text>
+  <text x="190" y="304" class="title">Technical partner for digital agencies</text>
+  <text x="190" y="328" class="sub">Custom web solutions, back offices and backend services, often white-label:</text>
+  <text x="190" y="347" class="sub">the whole development cycle, under the agency’s brand.</text>
+  <text x="190" y="372" class="num" style="font-weight:400">Next.js · NestJS · PostgreSQL · AWS</text>
+</svg>

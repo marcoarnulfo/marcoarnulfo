@@ -1,0 +1,29 @@
+name: Update profile numbers
+
+on:
+  schedule:
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/artcraft.mjs && node scripts/tools.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if the numbers changed
+        run: |
+          if git diff --quiet README.md assets; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898210+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets
+          git commit -m 'chore: update profile numbers'
+          git push

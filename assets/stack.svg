@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="538" viewBox="0 0 880 538">
+  <style>
+    .k { font: 500 11px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; letter-spacing: 2px; fill: #b5b2a8; }
+    .big { font: 700 30px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f0eee6; }
+    .acc { fill: #e08b6d; }
+    .sub { font: 400 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8f8b81; }
+    .name { font: 500 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #f0eee6; }
+    .num { font: 600 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #e08b6d; }
+    .dim { font: 400 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #8f8b81; }
+    .stat { font: 700 40px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f0eee6; }
+    .chip { font: 400 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #d6d3ca; }
+    .group { font: 600 11px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; letter-spacing: 1.5px; fill: #e08b6d; }
+  </style>
+  <rect width="880" height="538" rx="6" fill="#1f1e1d"/>
+  <rect x="0.5" y="0.5" width="879" height="537" rx="6" fill="none" stroke="#3a3833"/>
+  <rect x="40" y="34" width="8" height="8" fill="#d97757"/>
+  <text x="58" y="42" class="k">TECHNOLOGIES I WORK WITH</text>
+  <text x="40" y="470" class="group">SERVICES &amp; AI</text>
+  <text x="40" y="426" class="group">TESTING &amp; QUALITY</text>
+  <text x="40" y="352" class="group">CLOUD &amp; INFRA</text>
+  <text x="40" y="278" class="group">BACKEND</text>
+  <text x="40" y="234" class="group">MOBILE</text>
+  <text x="40" y="130" class="group">FRONTEND</text>
+  <text x="40" y="86" class="group">LANGUAGES</text>
+  <rect x="210" y="70" width="93" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="220" y="86" class="chip">TypeScript</text>
+  <rect x="309" y="70" width="93" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="319" y="86" class="chip">JavaScript</text>
+  <rect x="408" y="70" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="418" y="86" class="chip">Python</text>
+  <rect x="478" y="70" width="35" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="488" y="86" class="chip">Go</text>
+  <rect x="519" y="70" width="50" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="529" y="86" class="chip">Rust</text>
+  <rect x="575" y="70" width="57" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="585" y="86" class="chip">Swift</text>
+  <rect x="638" y="70" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="648" y="86" class="chip">Kotlin</text>
+  <rect x="708" y="70" width="42" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="718" y="86" class="chip">SQL</text>
+  <rect x="756" y="70" width="50" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="766" y="86" class="chip">Bash</text>
+  <line x1="40" x2="840" y1="104" y2="104" stroke="#2f2e2b"/>
+  <rect x="210" y="114" width="57" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="220" y="130" class="chip">React</text>
+  <rect x="273" y="114" width="72" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="283" y="130" class="chip">Next.js</text>
+  <rect x="351" y="114" width="72" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="361" y="130" class="chip">Angular</text>
+  <rect x="429" y="114" width="42" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="439" y="130" class="chip">Vue</text>
+  <rect x="477" y="114" width="50" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="487" y="130" class="chip">Vite</text>
+  <rect x="533" y="114" width="108" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="543" y="130" class="chip">React Router</text>
+  <rect x="647" y="114" width="123" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="657" y="130" class="chip">TanStack Query</text>
+  <rect x="776" y="114" width="57" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="786" y="130" class="chip">Redux</text>
+  <rect x="210" y="144" width="72" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="220" y="160" class="chip">Zustand</text>
+  <rect x="288" y="144" width="108" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="298" y="160" class="chip">Tailwind CSS</text>
+  <rect x="402" y="144" width="86" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="412" y="160" class="chip">shadcn/ui</text>
+  <rect x="494" y="144" width="79" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="504" y="160" class="chip">Radix UI</text>
+  <rect x="579" y="144" width="93" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="589" y="160" class="chip">Ant Design</text>
+  <rect x="678" y="144" width="115" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="688" y="160" class="chip">Framer Motion</text>
+  <rect x="210" y="174" width="72" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="220" y="190" class="chip">i18next</text>
+  <line x1="40" x2="840" y1="208" y2="208" stroke="#2f2e2b"/>
+  <rect x="210" y="218" width="108" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="220" y="234" class="chip">React Native</text>
+  <rect x="324" y="218" width="50" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="334" y="234" class="chip">Expo</text>
+  <rect x="380" y="218" width="101" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="390" y="234" class="chip">Expo Router</text>
+  <rect x="487" y="218" width="137" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="497" y="234" class="chip">React Navigation</text>
+  <rect x="630" y="218" width="86" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="640" y="234" class="chip">Storybook</text>
+  <rect x="722" y="218" width="79" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="732" y="234" class="chip">fastlane</text>
+  <line x1="40" x2="840" y1="252" y2="252" stroke="#2f2e2b"/>
+  <rect x="210" y="262" width="72" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="220" y="278" class="chip">Node.js</text>
+  <rect x="288" y="262" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="298" y="278" class="chip">NestJS</text>
+  <rect x="358" y="262" width="72" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="368" y="278" class="chip">Express</text>
+  <rect x="436" y="262" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="446" y="278" class="chip">Django</text>
+  <rect x="506" y="262" width="72" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="516" y="278" class="chip">FastAPI</text>
+  <rect x="584" y="262" width="50" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="594" y="278" class="chip">tRPC</text>
+  <rect x="640" y="262" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="650" y="278" class="chip">Strapi</text>
+  <rect x="710" y="262" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="720" y="278" class="chip">Prisma</text>
+  <rect x="210" y="292" width="72" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="220" y="308" class="chip">Drizzle</text>
+  <rect x="288" y="292" width="93" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="298" y="308" class="chip">PostgreSQL</text>
+  <rect x="387" y="292" width="72" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="397" y="308" class="chip">MongoDB</text>
+  <rect x="465" y="292" width="57" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="475" y="308" class="chip">Redis</text>
+  <rect x="528" y="292" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="538" y="308" class="chip">BullMQ</text>
+  <rect x="598" y="292" width="42" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="608" y="308" class="chip">Zod</text>
+  <rect x="646" y="292" width="72" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="656" y="308" class="chip">OpenAPI</text>
+  <rect x="724" y="292" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="734" y="308" class="chip">FFmpeg</text>
+  <line x1="40" x2="840" y1="326" y2="326" stroke="#2f2e2b"/>
+  <rect x="210" y="336" width="93" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="220" y="352" class="chip">AWS Lambda</text>
+  <rect x="309" y="336" width="72" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="319" y="352" class="chip">AWS CDK</text>
+  <rect x="387" y="336" width="101" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="397" y="352" class="chip">AWS Cognito</text>
+  <rect x="494" y="336" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="504" y="352" class="chip">AWS S3</text>
+  <rect x="564" y="336" width="86" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="574" y="352" class="chip">Terraform</text>
+  <rect x="656" y="336" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="666" y="352" class="chip">Docker</text>
+  <rect x="726" y="336" width="86" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="736" y="352" class="chip">OpenShift</text>
+  <rect x="210" y="366" width="72" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="220" y="382" class="chip">Jenkins</text>
+  <rect x="288" y="366" width="123" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="298" y="382" class="chip">GitHub Actions</text>
+  <rect x="417" y="366" width="72" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="427" y="382" class="chip">Railway</text>
+  <rect x="495" y="366" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="505" y="382" class="chip">Vercel</text>
+  <line x1="40" x2="840" y1="400" y2="400" stroke="#2f2e2b"/>
+  <rect x="210" y="410" width="93" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="220" y="426" class="chip">Playwright</text>
+  <rect x="309" y="410" width="72" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="319" y="426" class="chip">Maestro</text>
+  <rect x="387" y="410" width="50" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="397" y="426" class="chip">Jest</text>
+  <rect x="443" y="410" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="453" y="426" class="chip">Vitest</text>
+  <rect x="513" y="410" width="130" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="523" y="426" class="chip">Testing Library</text>
+  <rect x="649" y="410" width="42" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="659" y="426" class="chip">Git</text>
+  <rect x="697" y="410" width="86" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="707" y="426" class="chip">Turborepo</text>
+  <line x1="40" x2="840" y1="444" y2="444" stroke="#2f2e2b"/>
+  <rect x="210" y="454" width="93" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="220" y="470" class="chip">Claude API</text>
+  <rect x="309" y="454" width="42" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="319" y="470" class="chip">MCP</text>
+  <rect x="357" y="454" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="367" y="470" class="chip">Stripe</text>
+  <rect x="427" y="454" width="57" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="437" y="470" class="chip">Clerk</text>
+  <rect x="490" y="454" width="79" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="500" y="470" class="chip">Supabase</text>
+  <rect x="575" y="454" width="79" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="585" y="470" class="chip">Firebase</text>
+  <rect x="660" y="454" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="670" y="470" class="chip">Sentry</text>
+  <rect x="730" y="454" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="740" y="470" class="chip">Resend</text>
+  <rect x="210" y="484" width="64" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="220" y="500" class="chip">Twilio</text>
+  <rect x="280" y="484" width="86" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="290" y="500" class="chip">OneSignal</text>
+  <rect x="372" y="484" width="93" height="24" rx="2" fill="#262624" stroke="#3a3833"/>
+  <text x="382" y="500" class="chip">Contentful</text>
+</svg>

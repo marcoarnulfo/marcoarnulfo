@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="550" viewBox="0 0 880 550">
+  <style>
+    .k { font: 500 11px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; letter-spacing: 2px; fill: #b5b2a8; }
+    .big { font: 700 30px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f0eee6; }
+    .acc { fill: #e08b6d; }
+    .sub { font: 400 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8f8b81; }
+    .name { font: 500 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #f0eee6; }
+    .num { font: 600 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #e08b6d; }
+    .dim { font: 400 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #8f8b81; }
+    .stat { font: 700 40px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f0eee6; }
+    .chip { font: 400 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; fill: #d6d3ca; }
+    .group { font: 600 11px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; letter-spacing: 1.5px; fill: #e08b6d; }
+  </style>
+  <rect width="880" height="550" rx="6" fill="#1f1e1d"/>
+  <rect x="0.5" y="0.5" width="879" height="549" rx="6" fill="none" stroke="#3a3833"/>
+  <rect x="40" y="34" width="8" height="8" fill="#d97757"/>
+  <text x="58" y="42" class="k">OPEN SOURCE · ARTCRAFT · MERGED PULL REQUESTS PER APP</text>
+  <text x="40" y="84" class="big"><tspan class="acc">440</tspan> merged PRs across <tspan class="acc">13</tspan> apps</text>
+  <text x="40" y="108" class="sub">Open source creative apps written in Rust · 170k stars together</text>
+  <text x="840" y="42" class="k" text-anchor="end">UPDATED DAILY</text>
+  <text x="40" y="147" class="name">cadcraft</text><rect x="172" y="135" width="558" height="16" fill="#2c2b29"/><rect x="172" y="135" width="558" height="16" fill="#d97757"/><text x="738" y="147" class="num">67</text><text x="840" y="147" class="dim" text-anchor="end">★ 5.8k</text>
+  <text x="40" y="177" class="name">pdfcraft</text><rect x="172" y="165" width="558" height="16" fill="#2c2b29"/><rect x="172" y="165" width="525" height="16" fill="#d97757"/><text x="705" y="177" class="num">63</text><text x="840" y="177" class="dim" text-anchor="end">★ 16k</text>
+  <text x="40" y="207" class="name">vectorcraft</text><rect x="172" y="195" width="558" height="16" fill="#2c2b29"/><rect x="172" y="195" width="375" height="16" fill="#d97757"/><text x="555" y="207" class="num">45</text><text x="840" y="207" class="dim" text-anchor="end">★ 9.9k</text>
+  <text x="40" y="237" class="name">wordcraft</text><rect x="172" y="225" width="558" height="16" fill="#2c2b29"/><rect x="172" y="225" width="333" height="16" fill="#d97757"/><text x="513" y="237" class="num">40</text><text x="840" y="237" class="dim" text-anchor="end">★ 14k</text>
+  <text x="40" y="267" class="name">photocraft</text><rect x="172" y="255" width="558" height="16" fill="#2c2b29"/><rect x="172" y="255" width="308" height="16" fill="#d97757"/><text x="488" y="267" class="num">37</text><text x="840" y="267" class="dim" text-anchor="end">★ 68k</text>
+  <text x="40" y="297" class="name">gridcraft</text><rect x="172" y="285" width="558" height="16" fill="#2c2b29"/><rect x="172" y="285" width="291" height="16" fill="#d97757"/><text x="471" y="297" class="num">35</text><text x="840" y="297" class="dim" text-anchor="end">★ 5.8k</text>
+  <text x="40" y="327" class="name">lightcraft</text><rect x="172" y="315" width="558" height="16" fill="#2c2b29"/><rect x="172" y="315" width="267" height="16" fill="#d97757"/><text x="447" y="327" class="num">32</text><text x="840" y="327" class="dim" text-anchor="end">★ 14k</text>
+  <text x="40" y="357" class="name">soundcraft</text><rect x="172" y="345" width="558" height="16" fill="#2c2b29"/><rect x="172" y="345" width="267" height="16" fill="#d97757"/><text x="447" y="357" class="num">32</text><text x="840" y="357" class="dim" text-anchor="end">★ 3.3k</text>
+  <text x="40" y="387" class="name">effectcraft</text><rect x="172" y="375" width="558" height="16" fill="#2c2b29"/><rect x="172" y="375" width="233" height="16" fill="#d97757"/><text x="413" y="387" class="num">28</text><text x="840" y="387" class="dim" text-anchor="end">★ 7.4k</text>
+  <text x="40" y="417" class="name">filmcraft</text><rect x="172" y="405" width="558" height="16" fill="#2c2b29"/><rect x="172" y="405" width="192" height="16" fill="#d97757"/><text x="372" y="417" class="num">23</text><text x="840" y="417" class="dim" text-anchor="end">★ 15k</text>
+  <text x="40" y="447" class="name">designcraft</text><rect x="172" y="435" width="558" height="16" fill="#2c2b29"/><rect x="172" y="435" width="142" height="16" fill="#d97757"/><text x="322" y="447" class="num">17</text><text x="840" y="447" class="dim" text-anchor="end">★ 4.4k</text>
+  <text x="40" y="477" class="name">figcraft</text><rect x="172" y="465" width="558" height="16" fill="#2c2b29"/><rect x="172" y="465" width="100" height="16" fill="#d97757"/><text x="280" y="477" class="num">12</text><text x="840" y="477" class="dim" text-anchor="end">★ 2.7k</text>
+  <text x="40" y="507" class="name">deckcraft</text><rect x="172" y="495" width="558" height="16" fill="#2c2b29"/><rect x="172" y="495" width="75" height="16" fill="#d97757"/><text x="255" y="507" class="num">9</text><text x="840" y="507" class="dim" text-anchor="end">★ 3.8k</text>
+</svg>
