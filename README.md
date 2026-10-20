@@ -7,7 +7,7 @@
 <a href="https://www.marcoarnulfo.dev/en"><img src="assets/now.svg" alt="Now: team lead for Compass, one of the largest consumer credit companies in Italy; contributor to ArtCraft, open source creative apps in Rust; technical partner for digital agencies." width="100%"></a>
 
 <!-- artcraft:start -->
-<a href="https://github.com/pulls?q=is%3Apr+author%3Amarcoarnulfo+org%3Astorytold+is%3Amerged"><img src="assets/artcraft.svg" alt="440 merged pull requests across 13 ArtCraft apps, 170k stars" width="100%"></a>
+<a href="https://github.com/pulls?q=is%3Apr+author%3Amarcoarnulfo+org%3Astorytold+is%3Amerged"><img src="assets/artcraft.svg" alt="442 merged pull requests across 13 ArtCraft apps, 174k stars" width="100%"></a>
 <!-- artcraft:end -->
 
 <p>
